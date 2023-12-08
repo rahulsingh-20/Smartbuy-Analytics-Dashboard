@@ -11,7 +11,7 @@ process.on("uncaughtException", (err) => {
   process.exit(1);
 });
 
-//config
+// defining config file for process variables
 dotenv.config({ path: "backend/config/config.env" });
 
 // connecting to database
