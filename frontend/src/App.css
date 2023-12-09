@@ -1,0 +1,51 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 2vh;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2vh;
+  color: rgb(196, 115, 28);
+}
+
+.nonlinkdiv {
+  padding: 2vh;
+  margin: 2vh;
+}
+
+.logout-button {
+  margin: 2vh;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 2vh;
+}
+
+.logout-button:hover {
+  margin: 2vh;
+  color: white;
+  background-color: purple;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 2vh;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  text-align: center;
+}

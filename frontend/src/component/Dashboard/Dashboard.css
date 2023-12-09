@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-container {
+  width: 50%;
+}
+
+.logout-button {
+  margin: 2vh;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 2vh;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
