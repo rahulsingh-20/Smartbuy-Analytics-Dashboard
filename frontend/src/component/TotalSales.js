@@ -22,7 +22,12 @@ const TotalSales = () => {
   return (
     <div>
       {number !== null ? (
-        <p> Total sales of all time is: £ {number} </p>
+        <>
+          <p> Total sales of all time is: </p>
+          <p style={{ fontWeight: "bold", fontSize: 8 + "vh" }}>
+            £ {number}
+          </p>{" "}
+        </>
       ) : (
         <p>Loading number...</p>
       )}

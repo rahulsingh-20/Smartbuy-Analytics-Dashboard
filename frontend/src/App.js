@@ -50,8 +50,8 @@ const App = () => {
           {isLoggedIn ? <Redirect to="/dashboard" /> : null}
           {/* Render content for the home page */}
           <div className="homepage-content">
-            <h1>Smartbuy Analytics Dashboard</h1>
-            <p>Please login/register to gain access</p>
+            <h1 className="content-heading">Smartbuy Analytics Dashboard</h1>
+            <p className="content-para">Please login/register to gain access</p>
           </div>
         </Route>
       </Switch>

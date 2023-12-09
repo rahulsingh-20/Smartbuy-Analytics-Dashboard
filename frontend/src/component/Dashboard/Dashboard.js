@@ -18,16 +18,13 @@ const Dashboard = ({ userName, onLogout }) => {
   // });
 
   return (
-    <div>
+    <div className="dashboard-container">
       <div class="header">
-        <p>Welcome {userName}</p>
-        {/* <button className="logout-button" onClick={onLogout}>
-          Logout
-        </button> */}
+        <p>User: {userName}</p>
       </div>
       <div className="main">
-        <h1>WELCOME TO DASHBOARD</h1>
-        <div>
+        <h1 className="welcome">WELCOME TO DASHBOARD</h1>
+        <div className="total-sales">
           <TotalSales />
         </div>
         <div className="chart-container">

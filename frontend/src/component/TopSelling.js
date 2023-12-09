@@ -40,9 +40,36 @@ const TopSelling = () => {
 
   return (
     <div>
-      <h2>Sales of top 10 products:</h2>
+      <h2 style={{ textAlign: "center", paddingBottom: 5 + "vh" }}>
+        Sales of top 10 products:
+      </h2>
       {Object.keys(chartData).length > 0 ? (
-        <Line data={chartData} />
+        <Line
+          data={chartData}
+          options={{
+            scales: {
+              x: {
+                type: "category",
+                ticks: {
+                  color: "black",
+                },
+              },
+              y: {
+                beginAtZero: true,
+                ticks: {
+                  color: "black",
+                },
+              },
+            },
+            plugins: {
+              legend: {
+                labels: {
+                  color: "black", // Change label color here
+                },
+              },
+            },
+          }}
+        />
       ) : (
         <p>Loading chart data...</p>
       )}

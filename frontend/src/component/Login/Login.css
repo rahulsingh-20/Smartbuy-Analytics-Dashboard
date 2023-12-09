@@ -1,0 +1,41 @@
+.container {
+  background-color: rgb(90, 199, 229);
+}
+
+.form-container {
+  padding: 5vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-heading {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.textbox {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0 8px 0 8px;
+}
+
+.login-button {
+  padding: 2px;
+  text-align: center;
+}
+
+button {
+  border: 2px solid black;
+  padding: 2vh;
+}
+
+button:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
